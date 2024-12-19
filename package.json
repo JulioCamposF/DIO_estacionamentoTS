@@ -1,0 +1,22 @@
+{
+  "name": "fundamentos_ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx src/script.ts",
+    "start:watch": "tsx watch src/script.ts",
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
+}
